@@ -11,7 +11,7 @@ model = None
 def load_model():
     global model
     try:
-        model_path = os.path.join(os.getcwd(), 'liver/liver_disease_prediction.pkl')  # Ensure the correct path
+        model_path = os.path.join(os.getcwd(), 'liver_disease_prediction.pkl')  # Ensure the correct path
         print("Model path:", model_path)  # Debug: Print model path
 
         # Check if the model file exists
